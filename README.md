@@ -42,23 +42,25 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/d30add2b-c855-4fcc-a4c8-405eade17a4b)
 
-
-
-cat < file2
+ cat < file2
 ## OUTPUT
-
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/f7000fd5-f910-467f-9525-ffb161be853e)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
-comm file1 file2
- ## OUTPUT
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/76b4a936-602f-47f2-86da-d56c68616ba9)
 
- 
+comm file1 file2
+
+ ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/332ca85b-57d1-4c88-bb49-8cf2e288e068)
+
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/eb3dd8e6-5db5-4575-bf4a-eb447d6837ab)
 
 
 #Filters
@@ -82,17 +84,15 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
-
-
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/2023d972-e3cb-4f5c-a26e-5331677522c7)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
-
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/70de7b58-6879-43af-b3fa-acfd72cbda4e)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/45394aff-704a-4a43-9c32-fd63d2a3f82a)
 
 
 cat < newfile 
@@ -107,29 +107,34 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/3f7c4d0f-0675-4739-9817-5611a43d8100)
 
 
 
 grep hello newfile 
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/d6ec9124-fbaf-4a24-8bb2-66a0a125b353)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/dceefd27-9f60-4d74-ac58-d81301110157)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/52c42650-808e-48cc-9cbe-1385e8466a15)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/911bf28c-1f06-424b-900f-8a7d83b4c97b)
 
 
 
@@ -141,6 +146,7 @@ grep -R ubuntu /etc
 grep -w -n world newfile   
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/2c971571-9416-4ea7-be0d-b94a1cd7ea1f)
 
 cat < newfile 
 ```
@@ -164,58 +170,70 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/6778f00e-b2e2-4235-b80a-3ea3e9a9c410)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/d253ed79-2c44-4a0e-ae7f-a3f24d7f4b15)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/fdd87003-a010-499b-a1aa-203959245fdb)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/1a1e44ea-8dc1-4ed4-aa34-5d477dc04017)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/e2414657-02ed-4c9f-b7cf-af9071235e6d)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/185eb153-cb1b-4d52-aec7-ed192666846f)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/4564ca35-a9c5-44f2-b0e7-f161eef6bbf8)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/a35d77ed-6ab7-40fd-bd7b-9ed9175c33fc)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/aa83c3b0-9750-4ee7-a6ab-fa65387d1df4)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/ba2f32f2-d6c6-45f3-8a50-0b59e043cf6f)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/601f7c22-c097-4531-b639-2df6638762b4)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/3a8e8e60-a66d-4a11-8814-edab735b526d)
 
 
 cat > file23
@@ -234,31 +252,37 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/8162c262-e03e-409b-8f5f-0d17cfd0e8e7)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/8a48fa53-fc61-417d-ae71-f24370955731)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/d2e1dc0e-23b1-4846-9499-79cf97977428)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/17031e4a-0dd1-4013-8810-390abb41130b)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/c933437c-9721-4009-a50b-4dcd633a294f)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/6152508c-d7bb-43c5-8a76-9d83d506245a)
 
 
 
@@ -266,39 +290,47 @@ sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/290c48d8-fa7b-4704-ba26-6e06fa4b4264)
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/99665ba4-4e99-4e12-8c80-607ae7b2e464)
 
 
 seq 10 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/243e1a90-3a30-4bc5-9a3d-3d443cf7c2aa)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/234e7b89-14cd-4a47-a00b-32c98316acd3)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/8a362b80-e12f-4c90-aece-62c696f889e8)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/a785069e-61ed-463c-a2df-715d85fb8a38)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/030fd5ad-9257-4373-8c48-d532ce3d3953)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/82baf7ff-83d9-4a47-9691-6aeb244365ab)
 
 
 sed -n '2,4{s/^/$/;p}' file23
@@ -321,6 +353,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/68d6973c-8dc0-4f7f-ad4a-d080f2531cc7)
 
 cat > file22
 ```
@@ -333,6 +366,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/18faf860-b8f7-4f87-8c02-a28becb298fc)
 
 
 
@@ -340,6 +374,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/41922d2c-c88f-428a-9b64-983529805b14)
 
 cat < urllist.txt
 ```
@@ -357,11 +392,13 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/f6283ff4-e017-4cf1-a2ce-8df0554192ee)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/cc55fa29-4b83-4a2a-93b1-d6721e110f93)
 
 
 #Backup commands
