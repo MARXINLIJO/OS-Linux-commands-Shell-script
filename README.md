@@ -404,7 +404,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/f460d633-f4f3-4641-8c0b-b3a972d85d0e)
 
 mkdir backupdir
  
@@ -412,10 +412,11 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/e2c70bc4-1381-484e-9e8a-9aa95e239286)
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/ebdfa3bc-f2ba-4254-ae96-493559988727)
 
 gzip backup.tar
 
@@ -446,6 +447,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/f648f632-61b2-4d80-a124-16cdc28ef7ef)
 
 
 cat < scriptest.sh 
@@ -484,10 +486,12 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/dabd452f-ae90-4b8a-b055-e7453056c7e8)
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/968edd0d-1022-44bc-a575-cae4a82a4849)
 
 echo $?
 ## OUTPUT 
@@ -533,6 +537,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/35e145fa-aa2a-42c1-b859-9ab7904d2503)
 
 
 
@@ -540,6 +545,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/c6ae26c5-1616-4bef-b610-78ad1931da41)
 
 
 # check file ownership
@@ -567,6 +573,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/6c7ed860-c1f2-444c-afe0-12cbbb91b01b)
 
 # check if with file location
 cat>ifnested.sh 
@@ -613,6 +620,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/29feb126-e6d1-4214-bccc-b4a21841ad6f)
 
 
 
@@ -657,6 +665,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/f69c28d6-a589-4479-854c-2b8cdbf8f1e0)
 
 # check if a file
 cat > ifnested.sh 
@@ -706,6 +715,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/d5afa7aa-5cf9-4f3e-8c4a-ecc7e40f9460)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -734,6 +744,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/ccac53e9-efa3-4198-bb43-05e803522833)
 
 
 # testing compound comparisons
@@ -750,6 +761,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/b4152443-9aff-4de5-995e-8ce2ee7120ca)
 
 # using the case command
 cat >casecheck.sh 
@@ -769,7 +781,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ## OUTPUT
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/d6e2748c-459d-4188-9f1e-275795126370)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -784,7 +798,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ## OUTPUT
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/231d9b25-e67b-4489-966f-23113d3da13b)
+
  
 cat untiltest.sh 
 ```bash
@@ -797,9 +813,9 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
- 
+ ## OUTPUT
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/a587e03d-fb88-476c-bdfe-657c735ef7a9)
+
 cat forin1.sh 
 ```bash
 \#!/bin/bash
@@ -811,7 +827,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/944548a2-e34c-4773-8869-0379ca385111)
+
  
 cat forin2.sh 
 ```bash
@@ -837,7 +855,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ## OUTPUT
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/c72f6c09-9e16-490b-8146-b03ff4f77f43)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -848,7 +868,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ## OUTPUT
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/92bc0706-786b-4a1b-a764-10e69d223ef3)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -861,6 +883,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/91289d1d-1edd-443e-b6c2-599750ea460c)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -882,6 +906,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/60472b2d-35f2-4250-ac15-73f27b213dd1)
 
 
 cat forctype.sh 
@@ -896,6 +921,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/59578020-d11e-4949-9359-a777eb30115a)
 
 cat forctype1.sh 
 ```bash
@@ -909,6 +935,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/621f8174-587e-409e-b744-c5e0bffd0b95)
 
 cat fornested1.sh 
 ```bash
@@ -928,7 +955,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/fc177f32-2d6c-47f5-af9d-411ba34a1b03)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -944,6 +972,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/471877c0-2712-4050-a57e-725878e4dceb)
 
 $ chmod 755 forbreak.sh
  
@@ -969,7 +998,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/d4cc1660-92cb-410e-867d-c3cf9272165e)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -983,6 +1013,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/10f2b7ee-a56d-4f20-9a2f-25c340d42932)
 
 
  cat exread1.sh
@@ -996,6 +1027,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/cf69ef9d-fb7c-4ca5-bc1e-950b33549ced)
 
 
 $ ./exread1.sh 
@@ -1017,9 +1049,11 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/b2ede66d-fcc9-4a7e-9856-1d1dfcd61963)
 
  
  ./funcex.sh 1 2
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/9e53f4d6-f5d8-48f4-aeb2-5d8e44f4bdad)
 
  
 cat argshift.sh
@@ -1034,7 +1068,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/6955a771-cedc-4694-8d5f-105726bb057f)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1050,6 +1085,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/7b2c8a78-609f-42aa-a225-77990d8c6fb9)
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1064,7 +1101,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/45066861-e388-4da7-a59a-8f780188b9ff)
+
  
 cat > nc.awk
 ```bash
@@ -1095,7 +1133,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/0bc62d14-5aa2-478f-8d3f-c63e48f70af1)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1122,6 +1161,7 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/MARXINLIJO/OS-Linux-commands-Shell-script/assets/145742540/17fd94a9-a5e8-4ad5-855a-130a71679c06)
 
 
 # RESULT:
